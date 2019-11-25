@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using GymAssignment.Models;
 
 namespace GymAssignment.Data
 {
@@ -12,5 +13,6 @@ namespace GymAssignment.Data
             : base(options)
         {
         }
+        public DbSet<GymAssignment.Models.UsersTable> UsersTable { get; set; }
     }
 }
