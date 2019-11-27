@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GymAssignment",
+    "\\GymAssignment\\GymAssignment",
+    "\\GymAssignment\\GymAssignment\\Data",
+    "\\GymAssignment\\GymAssignment\\Data\\Migrations",
+    "\\GymAssignment\\GymAssignment\\Views",
+    "\\GymAssignment\\GymAssignment\\Views\\Home",
+    "\\GymAssignment\\GymAssignment\\Views\\Shared"
+  ],
+  "SelectedNode": "\\GymAssignment\\GymAssignment\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}
