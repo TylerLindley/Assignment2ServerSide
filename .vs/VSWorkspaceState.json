@@ -9,6 +9,6 @@
     "\\GymAssignment\\GymAssignment\\Views\\Home",
     "\\GymAssignment\\GymAssignment\\Views\\Shared"
   ],
-  "SelectedNode": "\\GymAssignment\\GymAssignment\\Views\\Home\\Index.cshtml",
+  "SelectedNode": "\\GymAssignment\\GymAssignment\\Data\\ApplicationDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

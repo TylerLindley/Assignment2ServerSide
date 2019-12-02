@@ -8,7 +8,7 @@ namespace GymAssignment.Models
 {
     public class UsersTable
     {
-        [Key]                               //Making a primary key to store all the users in our database.
+        [Key]                               //Making a primary key to store all the users in our database. -Tyler Lindley
         public virtual int Id { get; set; }
         [Required]
         [RegularExpression(@"^[A-Z]+[a-zA-z""'\s-]*$")]

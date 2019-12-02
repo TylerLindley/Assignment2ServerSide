@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GymAssignment.Data;
 using GymAssignment.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GymAssignment.Controllers
 {
+    [Authorize]
     public class UsersTableController : Controller
     {
         private readonly ApplicationDbContext _context;

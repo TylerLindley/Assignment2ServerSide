@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "Microsoft.AspNetCore.Authentication.Google/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/3.0.0": {
         "type": "package",
         "compile": {
@@ -2635,6 +2647,19 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Authentication.Google/3.0.0": {
+      "sha512": "u35Ht7mTTGiEbrU6MuzxnNjuLmkSB9+oOYIoDmS2w7tgU9w8JZVnpE08eJl3+hP8SShrVuKc4Eoup75bPs29cQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.3.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/3.0.0": {
       "sha512": "+rv53zsuvSYKFfW0LLswxHEXtu3fruU00AHcs1khYvnZAYi68Bdq6Ud/ukpnZsG0UjRJiz3KrfF4Rgvuogj48Q==",
       "type": "package",
@@ -8462,6 +8487,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Microsoft.AspNetCore.Authentication.Google >= 3.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.0.0",
@@ -8513,6 +8539,10 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.0.0, )"

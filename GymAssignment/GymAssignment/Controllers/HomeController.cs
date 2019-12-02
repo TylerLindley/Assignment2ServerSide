@@ -9,6 +9,7 @@ using GymAssignment.Models;
 
 namespace GymAssignment.Controllers
 {
+    
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

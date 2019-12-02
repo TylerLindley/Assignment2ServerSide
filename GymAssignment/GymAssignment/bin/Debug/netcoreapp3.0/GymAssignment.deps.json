@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.0": {
       "GymAssignment/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "3.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.0.0",
           "Microsoft.AspNetCore.Identity.UI": "3.0.0",
@@ -319,6 +320,17 @@
         },
         "compile": {
           "GymAssignment.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/3.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46502"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.0.0": {},
@@ -3792,6 +3804,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Google/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u35Ht7mTTGiEbrU6MuzxnNjuLmkSB9+oOYIoDmS2w7tgU9w8JZVnpE08eJl3+hP8SShrVuKc4Eoup75bPs29cQ==",
+      "path": "microsoft.aspnetcore.authentication.google/3.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.google.3.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.0.0": {
       "type": "package",
