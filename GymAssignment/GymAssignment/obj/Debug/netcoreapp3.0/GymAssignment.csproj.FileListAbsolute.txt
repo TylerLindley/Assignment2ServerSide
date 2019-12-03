@@ -145,3 +145,13 @@ C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssig
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\TimeOff\Edit.cshtml.g.cs
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\TimeOff\Index.cshtml.g.cs
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\View.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\CourseLists\Create.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\CourseLists\Delete.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\CourseLists\Details.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\CourseLists\Edit.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\CourseLists\Index.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Create.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Delete.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Details.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Edit.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Index.cshtml.g.cs

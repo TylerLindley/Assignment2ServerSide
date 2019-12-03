@@ -26,6 +26,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="UsersTable" asp-action="">Users</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="CourseLists" asp-action="">Sign Up For Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="FacultyLists" asp-action="">View Staff Directory (Staff Only)</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="TimeOff" asp-action="">Book Time Off (Staff Only)</a>
                         </li>
                     </ul>
@@ -35,7 +41,7 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+           @RenderBody()
         </main>
     </div>
 
