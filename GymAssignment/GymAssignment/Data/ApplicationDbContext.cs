@@ -14,5 +14,6 @@ namespace GymAssignment.Data
         {
         }
         public DbSet<GymAssignment.Models.UsersTable> UsersTable { get; set; }
+        public DbSet<GymAssignment.Models.TimeOffSchedule> TimeOffSchedule { get; set; }
     }
 }

@@ -3,12 +3,14 @@
     "",
     "\\GymAssignment",
     "\\GymAssignment\\GymAssignment",
-    "\\GymAssignment\\GymAssignment\\Data",
-    "\\GymAssignment\\GymAssignment\\Data\\Migrations",
+    "\\GymAssignment\\GymAssignment\\Models",
     "\\GymAssignment\\GymAssignment\\Views",
-    "\\GymAssignment\\GymAssignment\\Views\\Home",
-    "\\GymAssignment\\GymAssignment\\Views\\Shared"
+    "\\GymAssignment\\GymAssignment\\Views\\UsersTable",
+    "\\GymAssignment\\GymAssignment\\wwwroot",
+    "\\GymAssignment\\GymAssignment\\wwwroot\\lib",
+    "\\GymAssignment\\GymAssignment\\wwwroot\\lib\\jquery-validation",
+    "\\GymAssignment\\GymAssignment\\wwwroot\\lib\\jquery-validation\\dist"
   ],
-  "SelectedNode": "\\GymAssignment\\GymAssignment\\Data\\ApplicationDbContext.cs",
+  "SelectedNode": "\\GymAssignment\\GymAssignment\\Views\\UsersTable\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -139,3 +139,9 @@ C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssig
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\TimeOff\Create.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\TimeOff\Delete.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\TimeOff\Details.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\TimeOff\Edit.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\TimeOff\Index.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\View.cshtml.g.cs
