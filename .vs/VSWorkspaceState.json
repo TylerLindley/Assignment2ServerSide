@@ -4,13 +4,14 @@
     "\\GymAssignment",
     "\\GymAssignment\\GymAssignment",
     "\\GymAssignment\\GymAssignment\\Controllers",
+    "\\GymAssignment\\GymAssignment\\Data",
+    "\\GymAssignment\\GymAssignment\\Data\\Migrations",
     "\\GymAssignment\\GymAssignment\\Models",
     "\\GymAssignment\\GymAssignment\\Views",
-    "\\GymAssignment\\GymAssignment\\Views\\Shared",
-    "\\GymAssignment\\GymAssignment\\Views\\TimeOff",
+    "\\GymAssignment\\GymAssignment\\Views\\UsersTable",
     "\\GymAssignment\\GymAssignment\\wwwroot",
     "\\GymAssignment\\GymAssignment\\wwwroot\\css"
   ],
-  "SelectedNode": "\\GymAssignment\\GymAssignment\\Data\\ApplicationDbContext.cs",
+  "SelectedNode": "\\GymAssignment\\GymAssignment\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
   "PreviewInSolutionExplorer": false
 }
