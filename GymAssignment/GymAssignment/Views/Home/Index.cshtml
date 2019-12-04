@@ -54,14 +54,16 @@
         <div class="col-md-3">
             <h2> <img src="~/images/WaveHand.png" height="55" width="55" alt="Visual Studio" /> Welcome to MakeOrBreak Fitness</h2>
 
-                <p> We're a gym that wants to push you to your limits, We're built the best facilities and have engineered the top performance for fitness, and bringing you the best you you can be. </p>
-                    <img src="~/images/AthleticGuysBack.jpg" height="400" width="400" alt="Visual Studio" />
+            <p> We're a gym that wants to push you to your limits, We're built the best facilities and have engineered the top performance for fitness, and bringing you the best you you can be. </p>
+            <img src="~/images/AthleticGuysBack.jpg" height="400" width="400" alt="Visual Studio" />
         </div>
         <div class="col-md-3">
             <h2> <img src="~/images/NoCrossSign.webp" height="40" width="40" alt="Visual Studio" /> Undefeated Low Pricing</h2>
 
-            <p> We Pride ourselves on being a cheap gym that anyone is allowed to enjoy. We brand ourselves on having the best equipment for and the cheapest prices.
-            We want to be the go-to place for newcomers, we want to be the face of a healthy body.</p>
+            <p>
+                We Pride ourselves on being a cheap gym that anyone is allowed to enjoy. We brand ourselves on having the best equipment for and the cheapest prices.
+                We want to be the go-to place for newcomers, we want to be the face of a healthy body.
+            </p>
             <img src="~/images/GymBackground2.jpg" height="400" width="550" alt="Visual Studio" />
         </div>
         <div class="col-md-3">
@@ -73,4 +75,31 @@
             <p> It's been proven that having great physical health is linked with having great mental health. Studies show that you will most likely have better grades, better sleep, better health in general.. so.. should we sign you up right now?</p>
             <img src="~/images/SmileyFace.jpg" height="250" width="250" alt="Visual Studio" />
         </div>
-    </div>
+            <div id="map" style="height:400px; width: 400px;"> </div> <!--Bringing in the Google Maps API for our website to show users where the gyms are. -->
+            <script>
+                var map;
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        center: { lat: 44.389355, lng: -79.690331 },
+                        zoom: 10
+                    });
+                    var marker1 = new google.maps.Marker({
+                        position: { lat: 44.3399793, lng: -79.7169151 },
+                        map: map,
+                        title: "Holly Meadows Gym"
+                    });
+                    var marker2 = new google.maps.Marker({
+                        position: { lat: 44.413721, lng: -79.704550 },
+                        map: map,
+                        title: "East Bayfield Gym"
+                    });
+                    var marker3 = new google.maps.Marker({
+                        position: { lat: 44.361329, lng: -79.684886 },
+                        map: map,
+                        title: "Allandale Community Gym"
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-VGmhU4tcnli2vmSt4hkEUh8jyzgx4RY&callback=initMap"
+                    type="text/javascript"></script>
+</div>
