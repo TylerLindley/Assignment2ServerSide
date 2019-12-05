@@ -5,6 +5,13 @@
     <UserSecretsId>aspnet-GymAssignment-420AAA3F-4E4C-4625-B750-8E2463BD51AF</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20191203080555_Adding Tables.cs" />
+    <Compile Remove="Data\Migrations\20191203080555_Adding Tables.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191203081311_Seed Data.cs" />
+    <Compile Remove="Data\Migrations\20191203081311_Seed Data.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.0.0" />
