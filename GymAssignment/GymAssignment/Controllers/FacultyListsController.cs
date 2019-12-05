@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace GymAssignment.Controllers
 {
-    [Authorize] //(Roles ="Admin")]
+    [Authorize] //Roles ="Admin")]
     public class FacultyListsController : Controller
     {
         private readonly ApplicationDbContext _context;

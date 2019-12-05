@@ -155,3 +155,4 @@ C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssig
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Details.cshtml.g.cs
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Edit.cshtml.g.cs
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Index.cshtml.g.cs
+C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\Home\About.cshtml.g.cs
