@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GymAssignment</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><strong>MakeOrBreak</strong></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,19 +20,22 @@
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><strong> Home</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="UsersTable" asp-action="">Users</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About"><strong> About </strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="CourseLists" asp-action="">Sign Up For Courses</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="UsersTable" asp-action=""><strong> Users</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="FacultyLists" asp-action="">View Staff Directory (Staff Only)</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="CourseLists" asp-action=""><strong> Sign Up For Courses</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TimeOff" asp-action="">Book Time Off (Staff Only)</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="FacultyLists" asp-action=""><strong> View Staff Directory</strong><br /><font color="red">(Staff Only)</font></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="TimeOff" asp-action=""><strong>Book Time Off</strong><br /><font color="red">(Staff Only)</font></a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +50,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - GymAssignment - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2019 - MakeOrBreak Fitness- <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

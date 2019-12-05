@@ -10,29 +10,27 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img src="~/images/Weight Room.jpg" height="333" width="900" alt="Weight Room" class="img-responsive" />
+                <img src="~/images/MakeOrBreakLogo5.jpg" height="380" width="1200" alt="Weight Room" class="img-responsive" />
                 <div class="carousel-caption" role="option">
                     <p>
-                        Lift Weights and do not worry about anyone else!, Judgement Free Zone
+                        Lift Weights and do not worry about anyone else! Judgement Free Zone
                         <a class="btn btn-default" href="https://localhost:44394/Identity/Account/Register">
-                            Sign Up Today
+                            <font color="white">Sign Up Today</font>
                         </a>
                     </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="~/images/PoolPicture.jpg" height="333" width="900" alt="Pool Picture" class="img-responsive" />
+                <img src="~/images/PoolPicture.jpg" height="380" width="1200" alt="Pool Picture" class="img-responsive" />
                 <div class="carousel-caption" role="option">
                     <p>
                         30 Meter Pool, 9 Lanes for Varying Speeds. No Hassle, No Problem.
-                        <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                            Click Here for Hours
-                        </a>
+                        <a class="btn btn-default" asp-area="" asp-controller="Home" asp-action="About"><font color="white">Click Here For Hours</font></a>
                     </p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="~/images/SaunaPicture2.jpg" height="333" width="900" alt="Saunas" class="img-responsive" />
+                <img src="~/images/SaunaPicture2.jpg" height="380" width="1200" alt="Saunas" class="img-responsive" />
                 <div class="carousel-caption" role="option">
                     <p>
                         Steamy Sauna's, Perfect for after a Gym Workout or a Swimathon
@@ -75,31 +73,4 @@
             <p> It's been proven that having great physical health is linked with having great mental health. Studies show that you will most likely have better grades, better sleep, better health in general.. so.. should we sign you up right now?</p>
             <img src="~/images/SmileyFace.jpg" height="250" width="250" alt="Visual Studio" />
         </div>
-            <div id="map" style="height:400px; width: 400px;"> </div> <!--Bringing in the Google Maps API for our website to show users where the gyms are. -->
-            <script>
-                var map;
-                function initMap() {
-                    map = new google.maps.Map(document.getElementById('map'), {
-                        center: { lat: 44.389355, lng: -79.690331 },
-                        zoom: 10
-                    });
-                    var marker1 = new google.maps.Marker({
-                        position: { lat: 44.3399793, lng: -79.7169151 },
-                        map: map,
-                        title: "Holly Meadows Gym"
-                    });
-                    var marker2 = new google.maps.Marker({
-                        position: { lat: 44.413721, lng: -79.704550 },
-                        map: map,
-                        title: "East Bayfield Gym"
-                    });
-                    var marker3 = new google.maps.Marker({
-                        position: { lat: 44.361329, lng: -79.684886 },
-                        map: map,
-                        title: "Allandale Community Gym"
-                    });
-                }
-            </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKxAjsEA9v8fL2RlIqxayM-y9BpAq1eYo&callback=initMap"
-                    type="text/javascript"></script>
 </div>
