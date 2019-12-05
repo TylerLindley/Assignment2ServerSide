@@ -14,8 +14,8 @@ namespace GymAssignment.Data
         public static async Task CreateRoles(IServiceProvider serviceProvider, IConfiguration Configuration)
         {
             //adding customs roles
-            var RoleManager = serviceProvider.GetRequiredService<RoleManager<StoreRole>>();
-            var UserManager = serviceProvider.GetRequiredService<UserManager<GymUser>>();
+            var RoleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var UserManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
             string[] roleNames = { "Admin", "Manager", "Member" };
             IdentityResult roleResult;
 
@@ -25,12 +25,12 @@ namespace GymAssignment.Data
                 var roleExist = await RoleManager.RoleExistsAsync(roleName);
                 if (!roleExist)
                 {
-                    roleResult = await RoleManager.CreateAsync(new StoreRole(roleName));
+                    roleResult = await RoleManager.CreateAsync(new IdentityRole(roleName));
                 }
             }
 
             // creating a super user who could maintain the web app
-            var poweruser = new GymUser
+            var poweruser = new IdentityUser
             {
                 UserName = Configuration.GetSection("UserSettings")["UserEmail"],
                 Email = Configuration.GetSection("UserSettings")["UserEmail"]
