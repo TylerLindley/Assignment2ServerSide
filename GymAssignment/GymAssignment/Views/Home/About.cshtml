@@ -74,6 +74,9 @@
         </div>
             <div id="map" style="height:500px; width: 1200px;"> </div> <!--Bringing in the Google Maps API for our website to show users where the gyms are. -->
             <script>
+                //Bringing in the Google Maps API to display our 3 locations in Barrie.
+                //Code is being used and modified from 
+                //https://www.reddit.com/r/csharp/comments/d1x6ce/adding_google_maps_to_aspnet_core/ - Tyler Lindley
                 var map;
                 function initMap() {
                     map = new google.maps.Map(document.getElementById('map'), {
