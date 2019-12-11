@@ -156,7 +156,6 @@ C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssig
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Edit.cshtml.g.cs
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\FacultyLists\Index.cshtml.g.cs
 C:\Users\tyler\Documents\F2019 Serverside ASP.NET\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.csprojAssemblyReference.cache
 C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\staticwebassets\GymAssignment.StaticWebAssets.Manifest.cache
 C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\staticwebassets\GymAssignment.StaticWebAssets.xml
 C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.MvcApplicationPartsAssemblyInfo.cs
@@ -314,3 +313,4 @@ C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2Ser
 C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.RazorTargetAssemblyInfo.cs
 C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.Views.pdb
 C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.csproj.CopyComplete
+C:\Users\tyler\OneDrive\Documents\JavaScript Frameworks Fall 2019\Assignment2ServerSide\GymAssignment\GymAssignment\obj\Debug\netcoreapp3.0\GymAssignment.csprojAssemblyReference.cache
