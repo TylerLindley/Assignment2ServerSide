@@ -10552,27 +10552,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tyler\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\KyleS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignmentTests\\GymAssignmentTests.csproj",
+      "projectUniqueName": "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignmentTests\\GymAssignmentTests.csproj",
       "projectName": "GymAssignmentTests",
-      "projectPath": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignmentTests\\GymAssignmentTests.csproj",
-      "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignmentTests\\obj\\",
+      "projectPath": "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignmentTests\\GymAssignmentTests.csproj",
+      "packagesPath": "C:\\Users\\KyleS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignmentTests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\KyleS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -10584,8 +10577,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj": {
-              "projectPath": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj"
+            "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj": {
+              "projectPath": "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj"
             }
           }
         }

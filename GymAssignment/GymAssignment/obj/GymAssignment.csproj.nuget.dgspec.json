@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj": {}
+    "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj": {
+    "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
+        "projectUniqueName": "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
         "projectName": "GymAssignment",
-        "projectPath": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
-        "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\obj\\",
+        "projectPath": "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
+        "packagesPath": "C:\\Users\\KyleS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KyleS\\Desktop\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\KyleS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

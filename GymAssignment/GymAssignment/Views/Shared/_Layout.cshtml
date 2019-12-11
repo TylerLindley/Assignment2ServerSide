@@ -13,7 +13,46 @@
             width: 100%;
             font-family: 'Heebo', sans-serif;
         }
+        /* <!-- Additional styling added --> */
+        .navbar {
+            background-color: #FF8700 !important;
+            padding: 1rem;
+        }
 
+
+        .navbar-nav li a {
+            color: black !important;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .carousel-inner {
+            padding-bottom: 2rem;
+        }
+
+        .carousel-caption p {
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .btn-default {
+            background-color: #FF8700 !important;
+            border: 1px solid #FF8700 !important;
+        }
+
+        .col-md-3 h2 {
+            color: #FF8700 !important;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .img1 {
+            width: 100%;
+            height: 50%;
+        }
     </style>
 </head>
 <body>
@@ -27,7 +66,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><strong> Home</strong></a>
                         </li>
@@ -41,10 +80,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="CourseLists" asp-action=""><strong> Sign Up For Courses</strong></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="FacultyLists" asp-action=""><strong> View Staff Directory</strong><br /><font color="red">(Staff Only)</font></a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="FacultyLists" asp-action=""><strong> View Staff Directory</strong><br /><font color="white">(Staff Only)</font></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TimeOff" asp-action=""><strong>Book Time Off</strong><br /><font color="red">(Staff Only)</font></a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="TimeOff" asp-action=""><strong>Book Time Off</strong><br /><font color="white">(Staff Only)</font></a>
                         </li>
                     </ul>
                 </div>
@@ -53,7 +92,7 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-           @RenderBody()
+            @RenderBody()
         </main>
     </div>
 
@@ -68,3 +107,4 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+
