@@ -20,11 +20,8 @@ namespace GymAssignmentTests
             HomeController controller = new HomeController(null);
             //Act
             ViewResult result = controller.Index() as ViewResult;
-            ViewResult aboutResult = controller.About() as ViewResult;
             //Assert
-            Assert.NotNull(result);
-            Assert.NotNull(aboutResult);
-        }
+            Assert.NotNull(result);        }
         //Test is to make sure that the web pages are correctly displayed and that the links work
         [Fact]
         public void AboutTest()
