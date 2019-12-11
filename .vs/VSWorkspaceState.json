@@ -3,14 +3,14 @@
     "",
     "\\GymAssignment",
     "\\GymAssignment\\GymAssignment",
-    "\\GymAssignment\\GymAssignment\\Controllers",
-    "\\GymAssignment\\GymAssignment\\Controllers\\API",
+    "\\GymAssignment\\GymAssignmentTests",
     "\\GymAssignment\\GymAssignment\\Data",
     "\\GymAssignment\\GymAssignment\\Views",
     "\\GymAssignment\\GymAssignment\\Views\\Home",
+    "\\GymAssignment\\GymAssignment\\Views\\Shared",
     "\\GymAssignment\\GymAssignment\\wwwroot",
     "\\GymAssignment\\GymAssignment\\wwwroot\\css"
   ],
-  "SelectedNode": "\\GymAssignment\\GymAssignment\\Views\\Home\\About.cshtml",
+  "SelectedNode": "\\GymAssignment\\GymAssignmentTests\\HomeTesting.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -8499,21 +8499,19 @@
   },
   "packageFolders": {
     "C:\\Users\\tyler\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
+      "projectUniqueName": "C:\\Users\\tyler\\Documents\\F2019 Serverside ASP.NET\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
       "projectName": "GymAssignment",
-      "projectPath": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
+      "projectPath": "C:\\Users\\tyler\\Documents\\F2019 Serverside ASP.NET\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\GymAssignment.csproj",
       "packagesPath": "C:\\Users\\tyler\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tyler\\OneDrive\\Documents\\JavaScript Frameworks Fall 2019\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\obj\\",
+      "outputPath": "C:\\Users\\tyler\\Documents\\F2019 Serverside ASP.NET\\Assignment2ServerSide\\GymAssignment\\GymAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\tyler\\AppData\\Roaming\\NuGet\\NuGet.Config",
