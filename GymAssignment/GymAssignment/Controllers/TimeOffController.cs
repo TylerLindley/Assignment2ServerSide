@@ -10,7 +10,7 @@ using GymAssignment.Models;
 using Microsoft.AspNetCore.Authorization;
 
 namespace GymAssignment.Controllers
-{
+{               //Commenting out the roles as we do not have authentication
     [Authorize] //(Roles ="Admin")]
     public class TimeOffController : Controller
     {

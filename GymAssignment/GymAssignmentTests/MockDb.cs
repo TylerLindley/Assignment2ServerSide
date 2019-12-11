@@ -9,6 +9,7 @@ namespace GymAssignmentTests
 {
      public static class EntityExtensions
         {
+        //Creating a MockDb that way we can test data and it will always be the same
             public static void Clear<T>(this DbSet<T> dbSet) where T : class
             {
                 dbSet.RemoveRange(dbSet);

@@ -19,6 +19,7 @@ namespace GymAssignment.Controllers
             _logger = logger;
         }
 
+        //Making different routes on the website via the home controller
         public IActionResult Index()
         {
             return View();

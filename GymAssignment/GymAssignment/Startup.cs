@@ -40,15 +40,16 @@ namespace GymAssignment
             services.AddControllersWithViews();
             services.AddRazorPages();
 
-            services.AddAuthentication() //Setting up Google's Authentication Service, so that users can login with their Gmail Account. -Tyler Lindley
-                 .AddGoogle(options =>
-                 {
-                       IConfigurationSection googleAuthNSection =
-                       Configuration.GetSection("Authentication:Google");
+            //Editing out the Google Authentication so that you don't get the OAuth Client ID/Secret Error - Tyler Lindley
+            //services.AddAuthentication() //Setting up Google's Authentication Service, so that users can login with their Gmail Account. -Tyler Lindley
+                 //.AddGoogle(options =>
+                 //{
+                       //IConfigurationSection googleAuthNSection =
+                       //Configuration.GetSection("Authentication:Google");
 
-                        options.ClientId = googleAuthNSection["ClientId"];
-                       options.ClientSecret = googleAuthNSection["ClientSecret"];
-                 });
+                        //options.ClientId = googleAuthNSection["ClientId"];
+                       //options.ClientSecret = googleAuthNSection["ClientSecret"];
+                 //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
