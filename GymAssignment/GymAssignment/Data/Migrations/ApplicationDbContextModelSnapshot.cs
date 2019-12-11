@@ -262,7 +262,7 @@ namespace GymAssignment.Data.Migrations
                             CoveredBy = "Mason",
                             Date = "January 1st to February 4th",
                             Name = "Tyler Lindley",
-                            PostTime = new DateTime(2019, 12, 4, 10, 55, 24, 330, DateTimeKind.Local).AddTicks(9491)
+                            PostTime = new DateTime(2019, 12, 7, 0, 2, 48, 899, DateTimeKind.Local).AddTicks(9439)
                         },
                         new
                         {
@@ -270,7 +270,7 @@ namespace GymAssignment.Data.Migrations
                             CoveredBy = "Mason",
                             Date = "January 1st to February 4th",
                             Name = "Kyle Scagnetti",
-                            PostTime = new DateTime(2019, 12, 4, 10, 55, 24, 334, DateTimeKind.Local).AddTicks(1468)
+                            PostTime = new DateTime(2019, 12, 7, 0, 2, 48, 904, DateTimeKind.Local).AddTicks(6289)
                         },
                         new
                         {
@@ -278,7 +278,7 @@ namespace GymAssignment.Data.Migrations
                             CoveredBy = "Tyler",
                             Date = "Februay 24th to February 29th",
                             Name = "Justin Hunt",
-                            PostTime = new DateTime(2019, 12, 4, 10, 55, 24, 334, DateTimeKind.Local).AddTicks(1503)
+                            PostTime = new DateTime(2019, 12, 7, 0, 2, 48, 904, DateTimeKind.Local).AddTicks(6334)
                         },
                         new
                         {
@@ -286,7 +286,7 @@ namespace GymAssignment.Data.Migrations
                             CoveredBy = "Tyler",
                             Date = "Februay 24th to February 29th",
                             Name = "Mason Ferrie",
-                            PostTime = new DateTime(2019, 12, 4, 10, 55, 24, 334, DateTimeKind.Local).AddTicks(1511)
+                            PostTime = new DateTime(2019, 12, 7, 0, 2, 48, 904, DateTimeKind.Local).AddTicks(6342)
                         });
                 });
 

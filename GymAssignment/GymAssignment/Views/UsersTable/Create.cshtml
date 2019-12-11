@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Create";
 }
+<div id="Ajax">
 
 <h1>Create</h1>
 
@@ -11,7 +12,7 @@
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div asp-validation-summary="ModelOnly" class="text-danger" data-ajax="true" data-ajax-method="POST" data-ajax-update="#Ajax"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
@@ -53,7 +54,7 @@
         </form>
     </div>
 </div>
-
+</div>
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
